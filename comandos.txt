@@ -1,5 +1,7 @@
 
-# Comandos para ejecutar el servidor Django
+###############################################
+## Comandos para ejecutar el servidor Django ##
+###############################################
 
 python manage.py runserver --> Ejecuta el servidor HTTP
 python manage.py runsslserver --certificate /certificate.crt --key /local.key --> Ejecuta el servidor HTTPS manual
@@ -7,3 +9,9 @@ python manage.py runsslserver --certificate /certificate.crt --key /local.key --
 python manage.py makemigration
 python manage.py migrate
 
+###############################################
+## Comandos para la creacion del contendor ####
+###############################################
+
+docker-compose build
+docker-compose up
